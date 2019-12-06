@@ -8,13 +8,13 @@
 
 ## 特点:
 
-* 数据包使用`aes-cfb`对称加密
-* 使用HTTP协议伪装数据包, 后续会支持自定义HTTP报文
-* 智能路由
-* 对本地网络软件而言, 仍然是使用的SOCKS5代理, 与浏览器等软件无缝兼容, 包括`git clone`加速
-* 使用Supervisor或者Systemctl后台运行管理
-* 提供二进制可执行文件跨平台运行
-* 添加`.pac`文件
+* 数据包使用`aes-cfb`对称加密.
+* 使用HTTP协议伪装数据包, 后续会支持自定义HTTP报文.
+* 智能路由.
+* 对本地网络软件而言, 仍然是使用的SOCKS5代理, 与浏览器等软件无缝兼容, 包括`git clone`加速.
+* 使用Supervisor或者Systemctl后台运行管理.
+* 提供二进制可执行文件跨平台运行.
+* 添加`.pac`文件.
 
 ## 使用方法:
 请在[Release](https://github.com/Leviathan1995/fari-proxy/releases)页面下载最新版适配的二进制可执行文件
